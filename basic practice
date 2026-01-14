@@ -1,0 +1,14 @@
+print("hello python")
+name = "pallavi"
+age = 18
+print("name,18)
+name = input ("enter name:")
+print("hello",name)
+a = 10
+b = 5
+print(a + b, a - b, a * b, a / b)
+num = int(input("enter number:"))
+if num > 0:
+     print("positive")
+else
+     print("negative")
