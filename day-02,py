@@ -1,0 +1,21 @@
+name = input("what is your name")
+print(f"good morning{name}")
+print("simple calculator")
+a = int(input("a >>"))
+b = int(input("b >."))
+print(True)
+print(False)
+print(bool(0))
+name = "pallavi shaiva"
+print("pallavi" in name)
+my_age = 18
+your_age = 20
+print(my_age < your_age)
+print("my name is bhuvan")
+name = input("what is your name")
+age = srt("what is ypur name")
+print(age * 2)
+  
+  
+  
+  
