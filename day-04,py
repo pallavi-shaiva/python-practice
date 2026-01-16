@@ -1,0 +1,12 @@
+print(25>24 and 32>32)
+print(25>24 or34==32 )  
+print(not 25>24)
+#list[]
+product = ["bat","ball"]
+print(type(product))
+names = list(("pallavi","roopii"))
+mixed =[1,"pallavi",True,False,25.19,[25,19,25,19]]
+print(mixed)
+mixed[0] = "palluu"
+print(mixed)  
+  
