@@ -1,0 +1,15 @@
+name = "bhuvan"
+name1 = "bhuvan" "chandan"
+  print(name)
+  print(name1)
+  name = 'mangalore'
+  print = (len(name))
+  place = '''i am going to temple
+  i am so happy
+  its a really very good placed'''
+  print(place)
+  name = "bengalore"
+  print(name[4])
+  name = "mysore"
+  print(name[0])
+  
