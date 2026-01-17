@@ -1,0 +1,20 @@
+products = ["lipstick","facewash","serum","suncream"]
+print(products[1:])
+  # remove the elements
+names = ["pallavi","bhuvan","chandan","nandhan"]
+names.pop(1)
+print(names)
+names =["pallavi","bhuvan","chandan","nandhan"]
+names.remove("bhuvan")
+print(names)
+  #inserting the elements
+coloures = ["pink","blue","red","purple"]
+coloures.insert(1,"red")
+print(coloures)
+  #or
+coloures =["pink","blue","red","purple"]
+coloures.insert(len(coloures),"babypink")
+print(coloures)
+
+
+  
