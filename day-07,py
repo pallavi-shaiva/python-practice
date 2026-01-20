@@ -1,0 +1,14 @@
+#Tubles
+my_list =[1234,23345,3456,56778)
+print(my-list)
+print(type(my-list))
+print(len(my_list))
+#Sets
+list1 = [1234, 3, 4, 5]
+set1 =[1234, 3, 4, 5]
+print(list[0])
+#Dictionary
+instagram = { "folloowers" : 100000,
+               "views" : 200000,
+              "likes" : 10500 }
+print(intsagram[ "likes" ])
