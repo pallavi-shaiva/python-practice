@@ -1,0 +1,31 @@
+#dectionary 
+  #veiw item
+instagram = { "followers" : 100000,
+             "views" : 500000,
+             "likes" : 30000 }
+print(instagram)
+print(instagram("likes"))
+# chaning values
+instagram = { "followers" : 100000,
+             "views" : 500000,
+             "likes" : 30000 }
+print(instagram ["followers"])
+instagram ["followers"] =110000
+print(instagram ["followers"])
+#all values and keys
+instagram = { "followers" : 100000,
+             "views" : 500000,
+             "likes" : 30000 }
+print(instagram.values())
+print(instagram.keys())
+# remove elemnets
+instagram = { "followers" : 100000,
+             "views" : 500000,
+             "likes" : 30000 }
+instagram.pop ("likes")
+instagram.popitem())
+print(instagram)
+# update add item
+instagram.update({"comments" :2000})
+print(instagram)
+
