@@ -1,0 +1,19 @@
+#if else
+a = 10
+b = 20
+if a > b:
+  print("a is greater than b")
+elif b > a:
+  print("b is greater than a")
+else:
+    print("a is equal to b ")
+
+  pallavi official = { "followers" : 100000,
+                      "views" : 500000,
+                      "likes" : 6000000000 }
+print(pallavi official ["followers"])
+pallavi official ["followers"] = 1100000
+print(pallavi official ["followers"])
+print(pallavi official.values())
+print(pallavi official.keys())
+
