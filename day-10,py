@@ -1,0 +1,17 @@
+print("enter two values a and b")
+a = int(input("a>>"))
+b = int(input("b>>"))
+if a>b:
+  print("a is greater than b")
+elif a==b:
+  print("a is equal to b")
+else
+    print("a is not equal to b")
+birthday = float(input("enter birthday(in dress"))
+if birthday >25:
+    print("wear short dress and shoes")
+elif birthday >20:
+    print("wear jeans top and shoes")
+else:
+    print("wear body corn dress and shoes")
+        
