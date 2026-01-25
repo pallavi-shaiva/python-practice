@@ -1,0 +1,53 @@
+#if else
+age = int(input("enter your age:"))
+if age<0:
+  print("invalid age")
+elif age >=20:
+  print("eligible to vote")
+else
+  print("not eligible to vote")
+marks = int(input("enter your marks")
+if marks >=90:
+  print("grade A marks")
+elif marks <=75:
+  print("grade B marks")
+else :
+  print("grade C marks")
+# while 
+i = 0
+while (i<20):
+  print("good morning")
+  i+=1
+p = 0            
+while (p<25):
+    print("pallu")
+    break
+# for
+for i in (20):
+   print("heaven")
+my_list = ["bengalore","udupi","mangalore",25,19,"madikeri"]
+    for  P in my_list:
+        print(P)
+my_stars =[2,2,2,6,6]
+  for i in my_stars:
+      print("*" *i)
+# break continue
+  for num in range(25):
+    if num % 4 == 0:
+      print(num)
+    else :
+      continue
+for num in range(19):
+  if num 8 % == 0:
+    print(num)
+  elif num ==17:
+    break
+  # do while
+    n = 200
+    while (i<10):
+      print(n)
+    else :
+      print("not less than 20")
+            
+    
+  
