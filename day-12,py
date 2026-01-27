@@ -1,0 +1,29 @@
+#functions 01
+def tables(num):
+  for i in range (num):
+    print(f"{num} X {i} = {num * i}")
+def repeat(num):
+  for i in range(num):
+   print(f"this number made me repeat for {num} times")
+num = int(input("enter number >>")
+print("1. tables \n2. repeat")
+option =int(input("option >>")
+if option == 1:
+   tables(num)
+elif option ==2:
+    repeat(num)
+else:
+    print("option Invalid.try again!")
+#fuction 02
+def say_hello
+    print("hello")
+#function 03
+for i in range(num):
+    print(f"this number made me repeat{num}times")
+#function 04
+def print_name():
+    for i inrange(5):
+         print("pallavi")
+print_name()
+  
+            
