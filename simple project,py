@@ -1,0 +1,24 @@
+print("simple calculation")
+print("Enter a number")
+print("01.Addition")
+print("02.Substaction")
+print("03.Multiplication")
+print("04.Division")
+print("0.End the program")
+while True:
+   print(int(input("Enter a choice(1/2/3/4/0) >>")
+   num1=float(input("Enter num1 >>")
+   num2=float(input("Enter num2 >>")
+   num3=float(input("Enter num3 >>")
+   num4=float(input("Enter a another number >>")
+   if operator ==1:
+      print(num1 + num2 + num3)
+   elif operator ==2:
+      print(num1 - num2 - num3)
+   elif operator ==3:
+      print(num1 * num2 * num3)
+  elif operator ==4:
+      print(num1 // num2 // num3)
+  else:
+      print("Invalid option! please try again!!!!!")
+   
