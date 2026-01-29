@@ -1,0 +1,12 @@
+p = 12
+q = 18
+if p>q:
+   greater = p
+else:
+   greater = q
+while(True):
+   if((greater%p==0) & (greater%q==0) ):
+       lcm =greater
+       break
+   greater += 1
+print(f"LCM of {p} and {q} is {lcm}")
