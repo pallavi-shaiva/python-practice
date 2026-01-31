@@ -1,0 +1,13 @@
+import random
+secretnum =random.randint(7,25)
+print(secrettnum)
+count = 1
+while(True):
+     guess = int(input("guess a number(7-25) >>")
+     if guess == secretnum:
+        print("you won.victory!")
+        break
+     else:
+        print("game over!!")
+        count += 1
+print(f"you took {count} chances.")
