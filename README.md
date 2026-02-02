@@ -1,6 +1,6 @@
-# python practice Respository.....!!!
+# python practice Repository.....!!!
 hey..
-This respository contains my **daily python practice codes** and **small projects**.
+This repository contains my **daily python practice codes** and **small projects**.
 ## About
 -Language: **python**
 -Level: **Beginner**
