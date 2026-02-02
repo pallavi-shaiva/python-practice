@@ -1,0 +1,14 @@
+# palindrom simple project
+from colorama import Fore,Back,style
+word = "malayalam".lower()
+word_backwards =word[::-1]
+if word==word_backwards:
+   print("Its is a palindrome")
+else:
+print("Its is not a palindrome")
+my_name = "bhuvanshaiva"
+name_backwards= my_name[::-1]
+if my_name==name_backwards:
+    print("Its is a palindrome")
+else:
+    print("Its is not a palindrome")
