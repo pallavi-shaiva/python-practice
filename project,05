@@ -1,0 +1,21 @@
+print("simple calculation")
+print("Enter a number")
+print("1.Addition")
+print("2.Subtaction")
+print("3.Multiplication")
+print("4.Division")
+print("0.End the program")
+while True:
+    operation = int(input("Enter a choice(1\2\3\4\0) >>"))
+    num1 = int(input("Enter a number")
+    num2 = int(input("Enter a number")
+    if operation ==1:
+        print(num1 + num2)
+    elif operation ==2:
+        print(num1 - num2)
+    elif operation ==3:
+        print(num1 * num2)
+    elif operation ==4:
+        print(num1 / num2)
+    else:
+        print("Invalid choice")
