@@ -1,0 +1,20 @@
+#Dinstance converter
+distance = int(input("Enter two distance values:))
+units = input("Enter type i.e  K for kms or M for miles :"))
+if units.upper()== "K":
+   converted = distance/1.6099
+   print(f"you have covered {converted} miles")
+elif units.upper()== "M":
+   converted = distance * 1.6099
+   print(f"you have convered {converted} miles")
+else:
+   print("wrong game over!!!")
+  #numbre game
+secret_number = 10
+guess_count=0
+while guess_count<1:
+  guess =int(input("your guess")
+  print("you won!!")
+  break
+else:
+  print("you lost!!")
