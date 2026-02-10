@@ -1,0 +1,44 @@
+##classes and objects
+class Team:
+     name = ""
+     capt = ""
+     ban = ""
+     def winnerRCB(self):
+         if self.name == "RCB":
+            return "Ee sala cup namde"
+         elif self.name == "CSK":
+            return "nav ban agilla"
+Team = Team()
+Team1.name = "RCB"
+Team.capt = "virat kohli"
+
+Team = Team()
+Team.name = "CSK"
+Team.capt = "MSD"
+
+print(Team1.winnerRCB())
+print(Team2.winnerRCB())
+
+#02:
+class Employes:
+     full_time = ""
+     intership = ""
+     freelance = ""
+     def dream(self):
+       if self.name == "A1 employ":
+          return "salary 25lakhs"
+       elif self.name == "B1 employ":
+          return "salary 30thousand"
+A1 = Employes()
+A1.name = "A1 employ"
+A1.full_time = "salary 30thousand"
+
+B1 = Employes()
+B1.name ="B1 employ"
+B1.intership = "salary 30thousand"
+
+print(A1.full_time)
+print(A1.dream())
+print(B1.dream())
+     
+     
