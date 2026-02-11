@@ -1,0 +1,13 @@
+#class and object
+class car:
+   def__init__(self,color,brand,year)
+      self.color = color
+      self.brand = brand
+      self.year = year
+
+    def details(self):
+        return f"i have a {self.year} {self.brand} car"
+# creat object
+car1 = car ("black","toyota",2028)
+print(car1.details())
+
