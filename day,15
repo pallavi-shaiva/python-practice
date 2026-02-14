@@ -1,0 +1,15 @@
+name = "pallavi"
+age = 18
+marks = 90
+is_student = true
+print(name)
+print(age)
+name = input("Enter your name:")
+age = int(input("Enter your age:"))
+print("hello",name)
+print("you are",age, "years old")
+num = int(input("Enter a number:"))
+if num % 2 ==0:
+   print("Even number")
+else:
+  print("Old number")
