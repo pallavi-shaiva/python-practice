@@ -1,0 +1,29 @@
+print("hello world")
+print("name: sinchushaiva")
+print("age: 18")
+print("city: USA")
+name = "sinchushaiva"
+age = 18
+num = int(input("Enter a number: ")
+print(num)
+num =float(input("Enter a number: ")
+print(num)
+num = str(input("Enter a number: ")
+print("num")
+print(True)
+name = "chandanshaiva"
+print("chandan in name")
+my_age = 18
+your_age = 22
+print(my_age < your_age)
+print(my_age > your_age)
+print(my_age == your_age)
+name = input("Enter your name:")
+age = input("Enter your age:")
+city = input("Enter your city:")
+print(name)
+print(age)
+print(city)
+
+
+    
