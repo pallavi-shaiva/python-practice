@@ -1,0 +1,39 @@
+name = "pallavishaiva"
+age =19
+a = "10"
+b = int(a)
+name = "pallavishaiva"
+age = 18
+course = "BCA"
+college = "sri ramakrishna college mangalore"
+print("name:",name)
+print("age:",age)
+print("course:",course)
+print("college:",college)
+name = input("Enter your name:")
+age = input("Enter your age:")
+course = input("enter your course")
+college =input("Enter your college")
+print("name:",name)
+print("age:",age)
+print("course:",course)
+print("college:",college)
+a = 5
+b = 10
+a, b = b, a
+print("a =",a)
+print("b =",b)
+name = input("Enter your name:")
+age = input("Enter your age:")
+course = input("Enter yoour course:")
+college = input("Enter your college:")
+print("name:",name)
+print("age:",age)
+print("course:",course)
+print("college:",college)
+name = input("Enter your name:")
+age = input("Enter your age:")
+print(f"my name is {name} and i am {age}years old")
+radius = float(input("Enter radius:"))
+area = 3.14 * radius * radius
+print("area of circle is:",area)  
