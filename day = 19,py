@@ -1,0 +1,46 @@
+def is_leap(year):
+  leap = False
+  if year%4==0:
+    if year%100!=0:
+      leap = True
+  elif year%100==0:
+    if year%400==0:
+      leap = True
+  return leap
+year = int(input())
+print(is_leap(year))
+def is_leap(year):
+ return year % 4 ==0 and (year % 100 != 0 or year % 400 == 0)
+year = int(input())
+print(is_leap(year))
+
+#area of circle
+radius = float(input("Enter radius :"))
+area = 3.14 * radius * radius
+print("area of circle is:", area)
+
+#temperature convert
+celsius = float(input("Enter temperature in celsius :"))
+fahrenheit = (celsius * 9/5) + 32
+print("Temperature in Fahrenheit is:",fahrenheit)
+   
+## MAx of two numbers
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+c = int(input("Enter third number:"))
+if a > b and b > c:
+   print("Maximum number is:",a)
+elif b > a and c > a:
+   print("maximum number is:",b)
+else:
+   print("Maximum number is:",c)
+
+## Even and Odd
+num = int(input("Enter a number:"))
+if num % 2 == 0:
+     print("Even number")
+else:
+     print("Odd number:")) 
+   
+   
+
