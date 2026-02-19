@@ -1,0 +1,31 @@
+if__name__=='__main__':
+   n = int(input())
+   for i in range(1, n+1):
+       print(i,end="")
+
+name = input("my name is :")
+print(f"i am learing ptyhon")
+print("i will become a AI engineer")
+
+print("name: bhuvan")
+print("age: 19")
+print("city: madikeri")
+
+print("name:","bhuvan","age:",19,"city:","madikeri")
+name = "chandan"
+age = 19
+
+place = input("which is your fav place:")
+print(f"my fav place is USA {place} ")
+print("i am go to USA in 21 years in work for AL engineer")
+a = float(input("a >>"))
+b = float(input("b >>"))
+c = float(input("c >>"))
+
+num = "10"
+num = int(num)
+print(num+5)
+
+name = input("my name is:")
+age = input("my age is:")
+city = input("i am from:")
