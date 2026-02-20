@@ -1,0 +1,20 @@
+print("student result calculator:")
+name = input("Enter student name:")
+sub1 = float(input("Enter marks of subjects 1:"))
+sub2 = float(input("Enter marks of subjects 2:"))
+sub3= flaot(input("Enter marks of subjects 3:"))
+total = sub1 + sub2 +sub3
+average = total / 3
+if average >= 90:
+   grade = "A"
+elif average >= 75:
+   grade = "B"
+elif average >= 50:
+   grade = "C"
+else:
+    grade = "fail"
+print("\n result")
+print("name:",name)
+print("total marks:" total)
+print("average:",average)
+print("grade:",grade)
