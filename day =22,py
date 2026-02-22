@@ -1,0 +1,23 @@
+#small project
+if__name__ == "__main__":
+   n = int(input())
+   arr = map(int,input().split())
+    print(sorted(set(arr))[-2])
+
+  #simple basic varibale and loops
+  num = int(input("Enter a number:"))
+     if num >=20:
+         print("it is positive number:")
+     elif num < 20:
+         print("its is negative number:")
+     else:
+           print("game over"!!!)
+
+  num =int(input("Enter a number:")
+      if num >=0:
+         print("even number")
+      elif num >=1:
+          print("odd number")
+      else:
+          print("not allow")
+  
