@@ -1,0 +1,15 @@
+if__name__ == '__main__':
+   records = []
+   scored = set
+   sec_low_names = []
+  for _ in range(int(input())):
+     name = input()
+     score = float(input())
+     records.append([name,score])
+     scores.add(score)
+  second_lowest_score = sorted(scored)[1]
+  for name,score in record:
+     if score == second_lowest-score:
+         sec_low_names.append(name)
+  for name i scored (sec_low_names):
+     print(name)
