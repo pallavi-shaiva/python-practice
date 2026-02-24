@@ -1,0 +1,46 @@
+#even and oodd
+num = int(input("Enter a number:"))
+if num % 2 == 0:
+   print("Even number")
+else:
+   print("Odd number")
+
+##max of two numbers
+a = int(input("Enter a first number:"))
+b = int(input("Enter a second number:"))
+if a > b:
+   print("maximum is:",a)
+else:
+  print("maximum is:",b)
+
+##grade calculator
+marks = int(input("Enter a marks:"))
+if marks >=90:
+  print("grade:A")
+elif marks >=75:
+  print("grade:B")
+else:
+  print("grade:C")
+
+##ATM logic
+balance  =10000
+amount = int(input("Enter withdrawal amount:"))
+if amount <= balance:
+    balance = balance - amount
+    print("Transaction succesfulyy completed")
+    print("Availble balance:",balance)
+else:
+    print("Transaction Failed sorry!!!!")
+
+##loops for
+for i in range(1,100)
+    print(i)
+##loops while
+while i <= 100:
+    print(i)
+    i +=1
+
+##multiplication table
+num = int(input("Enter a number:"))
+for i in range(1,11):
+    print(num,"x","=",num * i)
