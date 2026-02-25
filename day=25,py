@@ -1,0 +1,16 @@
+def tables(num):
+  for i in range(11):
+      print(f"{num} X{i} = {num * i}") # tables of num
+def repeat(num):
+  for i in range(11):
+      print(f"this number made me repeat for{num} times")
+print("1.tables \2.repeat")
+option = int(input("option >>"))
+num = int(input("option number >>"))
+if option == 1:
+    tables(num)
+elif option == 2:
+    repeat(num)
+else:
+    print("option invalid.try again!!!!")
+  
