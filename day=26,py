@@ -1,0 +1,10 @@
+#prime or not prime number
+
+num = int(input("Enter first number:"))
+num1 = int(input("Enter second number:"))
+if num > 1:
+  print("This is prime number")
+elif num >= 0:
+  print("This is not prime number")
+else:
+  print("Invalid over!!!!")
