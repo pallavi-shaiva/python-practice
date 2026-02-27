@@ -1,0 +1,40 @@
+##Arithmetice operation program
+a = 10
+b = 5
+print("addition:",a + b)
+print("subtraction:",a - b)
+print("multiplication:",a * b)
+print("division:",a / b)
+print("floor division:",a // b)
+print("modules:", a % b)
+print("power:",a ** b)
+
+##Taking using input
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+print("addition:",a+b)
+print("subtraction:",a-b)
+print("multiplication:",a*b)
+if b != 0:
+    print(:division:",a/b)
+else:
+    print("division not possible(cannot divide by zero)
+
+##simple calculator
+
+num1 =float(input("Enter first number: "))
+operation =input("Enter operation(+,=,*,/):")
+num2 =float(input("Enter second number: "))
+if operation == "+":
+    print(result:",num1+num2)
+elif operation == "-":
+    print("result:",num1-num2)
+elif operation == "*":
+    print("result:",num1*num2)
+elif opeartion == "/"
+    if num2 !=0:
+        print("result:",num1/num2)
+    else:
+        print("cannot divide by zero")
+else:
+    print("Invalid operation")
