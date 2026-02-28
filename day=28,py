@@ -1,0 +1,23 @@
+#basic input and output
+boy_name = (input("boy_name:")
+boy_age = int(input("boy_age:"))
+girl_name = input("girl_name:")
+girl_age = int(input("girl_age:"))
+print(boy_name + " loves " + girl_name:")
+age_deff = boy_age - girl_age
+print(boy_name + " loves " +girl_name + " .age difference is " +str("age_deff))
+print(f"{boy_name} loves {girl_name}. age difference is {age_deff}")
+
+boy_name = input("boy_name: ")
+boy_age = int(input("boy_age: "))
+girl_name = input("girl_name: ")
+girl_name = int(input("girl_age: "))
+print(f"{boy_name} loves {girl_name}")
+age_deff = abs(boy_age-girl_age)
+if boy_age == girl_age:
+       print(f"{boy_name} and {girl_name} both are same age")                                                                   
+elif boy_age>girl_age:
+       print(f"{boy_name}is{age_deff} years older than{girl_name}")                                                             
+else:
+       print(f"{boy_name}is{age_deff}years younger than{girl_nmae}")                                                                    
+      
