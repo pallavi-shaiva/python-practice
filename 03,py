@@ -1,0 +1,27 @@
+##logic operator 
+num1 = int(input("Enter first number: "))
+num2 = int("input("Enter second number: "))
+print("both greater than 10:", num1>10 and num2>10)
+print("at list one less than 5:",num1<5 or num2<5)
+print("first is not greater than second:",not(num1>num2))
+
+## comparision operator
+age = int(input("Enter your age:"))
+if age>=18:
+   print("you are an adlut")
+else:
+   print("you are a minor")
+
+## membership operator
+text = input("nter a string: ")
+print("'a' in string:",'a' in text)
+print("does not contain 'python':","python" not in text)
+
+##bitwise operatore
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b:"))
+print("a&b=",a&b)
+print("a|b=",a|b)
+print("a^b=",a^b)
+print("a<<1=",a<<b1)
+print("b<<2=",a<<b2)
