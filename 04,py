@@ -1,0 +1,21 @@
+##list
+numners = [10,20,30,40,50]
+print("first elements:",numbers[0])
+print("last elements:",numbers[-1])
+print("length:",len(numbers))
+
+numbers = [10,20,30,40,50]
+total = sum(numbers)
+average =total/len(numbers)
+print("sum:",total)
+print("average:",average)
+
+
+numbers = []
+for i in range(6):
+    num=int(input("Enter number:"))
+    numbers.append(num)
+print("Even numbers are:")
+for num in numbers:
+     if num % 2 == 0:
+          print(num)
