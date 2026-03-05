@@ -1,0 +1,11 @@
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+print("addition:",a+b)
+print("subtraction:",a-b)
+print("multiplication:",a*b)
+if b 1= 0:
+      print("division:",a/b)
+else:
+      print("division not possible(cannot divide by zero")
+
+  
