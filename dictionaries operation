@@ -1,0 +1,40 @@
+birthday = {
+      "pallavi" : "25-5-2007",
+      "bhuvan" : "07-9-2009",
+      "prabha" : "01-05-1990",
+      "shiva" : "01-12-1985"
+}
+print(birthday)
+
+#Accessing the elements:
+print(birthday[""pallavi"])
+#this is safe access:
+print(birthday.get("chandan","not found"))
+
+#Adding and updating elements:
+print("Adding chandan to the list")
+birthday["chandan"]="28-09-2002"
+print(birthday)
+
+#updating the elements:
+print(birthday)
+print("updating")
+birthday["pallavi:"]  = "25-05-2008"
+print(birthday)
+
+#Removing the elements:
+print(birthday)
+print("pop")
+birthday.pop("pallavi:")
+print(birthday)
+#or
+del birthday["pallavi"]
+
+#dictionary methods:
+#keys()
+print(birthday.keys())
+#values()
+print(birthday.values())
+#items()
+print(birthday.items())
+               
