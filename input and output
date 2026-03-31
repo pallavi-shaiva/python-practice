@@ -1,0 +1,18 @@
+#simple project for input and output:
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+sub1 =int(input("Enter marks for first subjects: "))
+sub2=int(input("Enter marks for second subjects: "))
+sub3=int(input("Enter marks for third subjects: "))
+total = sub1+sub2+sub3
+average = total /3
+print("\n students details")
+print("name:",name)
+print("age:",age)
+print("total marks:",total)
+print("average marks:",average)
+if average >= 55:
+      print("hey you are passed the exam: ")
+else:
+      print("you are failed the exam: ")
+
